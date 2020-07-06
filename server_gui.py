@@ -5,8 +5,6 @@ Created on Wed Jun 24 11:08:32 2020
 @author: fbasatemur
 """
 
-import socket
-
 """
       AF_UNIX: UNIX domain protokolleri
       AF_INET: TCP ve UDP için IPv4 protokolleri
@@ -15,6 +13,8 @@ import socket
       SOCK_STREAM: TCP bağlantı tipi
       SOCK_DGRAM: UDP bağlantı tipi
 """
+
+import socket
 
 class Server():
       

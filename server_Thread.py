@@ -10,7 +10,6 @@ Created on Thu Jun 25 12:43:40 2020
 from server_gui import Server
 from threading import Thread, Event
 import socket
-from PyQt5.QtWidgets import QMessageBox
 
 class ServerThread(Thread):
       
@@ -21,10 +20,10 @@ class ServerThread(Thread):
             self.portHost = host
             self.byteMssgBuffer = bytearray()
             self.errorMssg = ""
+            self.isBind = ""
             # self.strMssgBuffer = ""
             
-            self.isBind = ""
-            self.isListen = ""
+            
             
       def run(self):
             

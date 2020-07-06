@@ -4,7 +4,7 @@ Programming Lang: Python 3.7.3
 
 UI: PyQT5
 
-Techniques Used: 
+Used Techniques: 
   * multithreading
   * socket API
   

@@ -7,7 +7,7 @@ Created on Wed Jun 24 14:23:37 2020
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QFont, QColor
-from PyQt5.QtGui import QKeySequence
+from PyQt5.QtGui import QKeySequence, QIcon
 from PyQt5.QtCore import QTimer
 
 from client_gui import Client, socket
@@ -21,7 +21,8 @@ class Window(QWidget):
             
             self.setGeometry(300, 300 ,560, 460)   # x, y, w, h
             self.setWindowTitle("Chat ONE")
-            
+            self.setWindowIcon(QIcon("ChatONE_chat.ico"))
+
             self.labelIp()      
             self.labelPort()      
             
