@@ -8,6 +8,10 @@ Used Techniques:
   * multithreading
   * socket API
   
+## Run
+```
+python ChatONE_main.py
+```
 ## UI Screenshots
 ### Build connection..
 ![screenshot of conversion](https://github.com/fbasatemur/ChatONE_chatapp/blob/master/screenshots/ChatONE_connection.jpg)
